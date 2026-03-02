@@ -1,0 +1,23 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management 
+    container_name: rabbitmq_server
+    ports:
+      - "5672:5672"   
+      - "15672:15672" 
+    environment:
+      RABBITMQ_DEFAULT_USER: user
+      RABBITMQ_DEFAULT_PASS: password
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb_server
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: escuela_db
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
