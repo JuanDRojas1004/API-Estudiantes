@@ -74,6 +74,7 @@ Una vez instaladas las dependencias y con tus servicios de MongoDB y RabbitMQ ac
 
 ```bash
 uvicorn main:app --reload
+docker-compose up --build
 
 ```
 
