@@ -1,5 +1,3 @@
-¡Claro! Aquí tienes el archivo `README.md` completo y estructurado en formato Markdown. He integrado los pasos específicos para instalar las dependencias desde el `requirements.txt` y cómo poner en marcha la API paso a paso.
-
 ```markdown
 # API de Gestión de Alumnos - Arquitectura Asíncrona 🚀
 
