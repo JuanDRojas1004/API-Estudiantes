@@ -110,8 +110,5 @@ mypy .
 * **Email:** [juandrojas1004@gmail.com](mailto:juandrojas1004@gmail.com)
 * **Institución:** Universidad Javeriana
 
-```
-
-¿Te gustaría que te ayude a revisar si tu archivo `requirements.txt` tiene todas las versiones bloqueadas para evitar errores al desplegar?
 
 ```
